@@ -1,0 +1,25 @@
+<resources>
+    <string name="facebook_app_id">1288928381299719</string>
+    <string name="fb_login_protocol_scheme">fb1288928381299719</string>
+    <string name="app_name">Task Manager</string>
+    <string name="textview">Log in</string>
+    <string name="textv">Registration</string>
+    <string name="hint">Email:</string>
+    <string name="hint2">Password:</string>
+    <string name="text">Log in</string>
+    <string name="text4">Register now</string>
+    <string name="text1">Facebook Log in</string>
+    <string name="text2">Gmail Log in</string>
+    <string name="text3">Anonymous Log in</string>
+    <string name="singup">Dont have account?Sing up here</string>
+    <string name="singupf">Required field..</string>
+    <string name="succ">Successful</string>
+    <string name="suc">Problem</string>
+    <string name="me">Processing..</string>
+    <string name="singin">Already have account?Sing in here</string>
+    <string name="title">Your Task App</string>
+    <string name="note">note:</string>
+    <string name="naslov">title:</string>
+    <string name="save">save</string>
+    <string name="nasoka">Add your task</string>
+</resources>
