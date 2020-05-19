@@ -249,16 +249,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        if(requestCode == 1 && resultCode == RESULT_OK){
+
         mCallbackManager.onActivityResult( requestCode, resultCode, data );
         super.onActivityResult( requestCode, resultCode, data );}
-        if (resultCode==RESULT_OK){
-            if(requestCode==RC_SIGN_IN){
-                GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
-                handleSignInResult(result);
-            }
-        }
-    }
+
+
 
     private void updateUI(FirebaseUser user) {
         if (user != null) {
