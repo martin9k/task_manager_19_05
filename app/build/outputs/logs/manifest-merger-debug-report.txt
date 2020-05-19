@@ -14,6 +14,7 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\vrootok\
 MERGED from [com.google.firebase:firebase-core:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9d64ff6d5b51d769169b6cbd57613534\firebase-core-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\f15f2c10dd03afadad158d010498ad07\firebase-analytics-17.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:17:1-55:12
 MERGED from [com.facebook.android:facebook-places:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\4aa6bf84696e80b9832d862c53d73963\facebook-places-5.15.3\AndroidManifest.xml:21:1-31:12
@@ -32,9 +33,10 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\vrootok\.
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\0ccef6ba1c931745777a3214ab56ce7e\play-services-auth-api-phone-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\926cd74775bd68ac1172d6663b0b2b64\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\95cac792b06b7c326f578201166b4b2b\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\b1af05bf1c63f5e778a10f20bd59737b\firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\72c10e262845a1c2de4f6980a55c9ba9\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\edc036483ef40607e8355e7cf0a3668d\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\08e5ab55bcfafa0ef1249a5090a8d0c4\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\11365d38218db6eea7ac928cd38f3937\play-services-measurement-base-17.2.2\AndroidManifest.xml:2:1-9:12
@@ -44,8 +46,6 @@ MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vroo
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\54aa53a8adaadc2968ca0bcce2d1462a\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d888c399867a8f38619658b14b6b7815\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\55c8e6e745aacceb492535bf431d5720\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31e1e0ea40abf50bc1f09972fcda6618\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d2b5639f708c0ae06593a52d5d37295c\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d619842a7eaf1130694ae1c01f978c20\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\cceabc3c8dee5ebd8cd6698cb762f1fb\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6b4351a8fb7ff3bebd2f5bef251ea683\transition-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -62,6 +62,8 @@ MERGED from [androidx.activity:activity:1.0.0] C:\Users\vrootok\.gradle\caches\t
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6b6a5f0e2028213443bf564f1c585c31\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\fa938dd1ba07eb510b386f61bb706de8\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d2b5639f708c0ae06593a52d5d37295c\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31e1e0ea40abf50bc1f09972fcda6618\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\bf49d1e9988754dbe0dc022e3b661608\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\f3d3c9ef953af10d388177573d1cb616\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\a072b7027d050ba4a28e8ed0f5aedf24\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -93,6 +95,8 @@ INJECTED from C:\Users\vrootok\AndroidStudioProjects\task\app\src\main\AndroidMa
 		ADDED from C:\Users\vrootok\AndroidStudioProjects\task\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\vrootok\AndroidStudioProjects\task\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:22:5-67
@@ -125,6 +129,8 @@ MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\vrootok\.gr
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\f15f2c10dd03afadad158d010498ad07\firebase-analytics-17.2.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:28:5-53:19
@@ -149,12 +155,12 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\vrootok
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\dd64b0e5e5a7f144b8735df05b5509e0\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\95cac792b06b7c326f578201166b4b2b\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\95cac792b06b7c326f578201166b4b2b\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\72c10e262845a1c2de4f6980a55c9ba9\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\72c10e262845a1c2de4f6980a55c9ba9\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\edc036483ef40607e8355e7cf0a3668d\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\edc036483ef40607e8355e7cf0a3668d\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\11365d38218db6eea7ac928cd38f3937\play-services-measurement-base-17.2.2\AndroidManifest.xml:7:5-20
@@ -277,6 +283,8 @@ MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\vrootok\.gr
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\f15f2c10dd03afadad158d010498ad07\firebase-analytics-17.2.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:20:5-44
@@ -313,12 +321,14 @@ MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\vro
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\926cd74775bd68ac1172d6663b0b2b64\play-services-auth-base-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\95cac792b06b7c326f578201166b4b2b\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\95cac792b06b7c326f578201166b4b2b\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\b1af05bf1c63f5e778a10f20bd59737b\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\b1af05bf1c63f5e778a10f20bd59737b\firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\72c10e262845a1c2de4f6980a55c9ba9\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\72c10e262845a1c2de4f6980a55c9ba9\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\edc036483ef40607e8355e7cf0a3668d\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\edc036483ef40607e8355e7cf0a3668d\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\08e5ab55bcfafa0ef1249a5090a8d0c4\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:20:5-44
@@ -337,10 +347,6 @@ MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\vrootok\.gradle\caches\t
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d888c399867a8f38619658b14b6b7815\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\55c8e6e745aacceb492535bf431d5720\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\55c8e6e745aacceb492535bf431d5720\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31e1e0ea40abf50bc1f09972fcda6618\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31e1e0ea40abf50bc1f09972fcda6618\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d2b5639f708c0ae06593a52d5d37295c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d2b5639f708c0ae06593a52d5d37295c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d619842a7eaf1130694ae1c01f978c20\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d619842a7eaf1130694ae1c01f978c20\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\cceabc3c8dee5ebd8cd6698cb762f1fb\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -373,6 +379,10 @@ MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vr
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\fa938dd1ba07eb510b386f61bb706de8\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d2b5639f708c0ae06593a52d5d37295c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d2b5639f708c0ae06593a52d5d37295c\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31e1e0ea40abf50bc1f09972fcda6618\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31e1e0ea40abf50bc1f09972fcda6618\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\bf49d1e9988754dbe0dc022e3b661608\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\bf49d1e9988754dbe0dc022e3b661608\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\f3d3c9ef953af10d388177573d1cb616\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -433,6 +443,44 @@ ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.
 		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31eb20e4bf7c1fdeea830bef7d165037\play-services-measurement-impl-17.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31eb20e4bf7c1fdeea830bef7d165037\play-services-measurement-impl-17.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\08e5ab55bcfafa0ef1249a5090a8d0c4\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\08e5ab55bcfafa0ef1249a5090a8d0c4\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:33:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -449,40 +497,12 @@ ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\c
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:31:13-47
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
 ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
 	android:value
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31eb20e4bf7c1fdeea830bef7d165037\play-services-measurement-impl-17.2.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\31eb20e4bf7c1fdeea830bef7d165037\play-services-measurement-impl-17.2.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\08e5ab55bcfafa0ef1249a5090a8d0c4\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\08e5ab55bcfafa0ef1249a5090a8d0c4\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:24:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
@@ -597,14 +617,6 @@ action#com.google.android.c2dm.intent.RECEIVE
 ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 	android:authorities
@@ -615,6 +627,14 @@ ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\df456de5bb4354bc11929227318d1a25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
