@@ -1,14 +1,19 @@
 package com.example.task;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.task.Model.Data;
@@ -26,6 +31,7 @@ private Toolbar toolbar;
 private DatabaseReference mDatabase;
 private FirebaseAuth mAuth;
 private FloatingActionButton floatingActionButton;
+private RecyclerView recyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -34,6 +40,12 @@ private FloatingActionButton floatingActionButton;
         FirebaseUser mUser=mAuth.getCurrentUser();
         String uId=mUser.getUid();
         mDatabase=FirebaseDatabase.getInstance().getReference().child( "TaskNote" ).child( uId );
+        recyclerView=findViewById( R.id.recycler );
+        LinearLayoutManager linearLayoutManager=new LinearLayoutManager( this );
+        linearLayoutManager.setReverseLayout( true );
+        linearLayoutManager.setStackFromEnd( true );
+        recyclerView.setHasFixedSize( true );
+        recyclerView.setLayoutManager( linearLayoutManager );
         toolbar=findViewById( R.id.toolbar);
         floatingActionButton=findViewById( R.id.fab_btn );
         floatingActionButton.setOnClickListener( new View.OnClickListener() {
@@ -71,5 +83,31 @@ private FloatingActionButton floatingActionButton;
                 dialog.show();
             }
         } );
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
+
+    public static class MyViewHolder extends RecyclerView.ViewHolder{
+        View myview;
+        public MyViewHolder(@NonNull View itemView) {
+            super( itemView );
+            myview=itemView;
+        }
+public void setTitle(String title){
+    TextView mTitle=myview.findViewById( R.id.title);
+    mTitle.setText( title );
+}
+        public void setNote(String note){
+            TextView mNote=myview.findViewById( R.id.note);
+            mNote.setText( note );
+        }
+        public void setDate(String date){
+            TextView mDate=myview.findViewById( R.id.date);
+            mDate.setText( date );
+        }
     }
 }
