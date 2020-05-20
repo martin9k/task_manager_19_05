@@ -36,6 +36,11 @@ private DatabaseReference mDatabase;
 private FirebaseAuth mAuth;
 private FloatingActionButton floatingActionButton;
 private RecyclerView recyclerView;
+private  EditText uptitle;
+private EditText upnote;
+private Button btnDelete;
+private Button btnUpdate;
+private String title,note,post_key;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
@@ -59,7 +64,7 @@ private RecyclerView recyclerView;
                 LayoutInflater inflater=LayoutInflater.from( HomeActivity.this);
                 View myview=inflater.inflate(R.layout.custominputfield,null);
                 myDialog.setView( myview );
-                AlertDialog dialog=myDialog.create();
+                final AlertDialog dialog=myDialog.create();
                 final EditText title=myview.findViewById( R.id.edt_title );
                 final EditText note=myview.findViewById( R.id.edt_note );
                 Button btnSave=myview.findViewById( R.id.btn_save);
@@ -81,7 +86,7 @@ private RecyclerView recyclerView;
                         Data data=new Data(mTitle,mNote,datee,id);
                         mDatabase.child( id ).setValue( data );
                         Toast.makeText(getApplicationContext(),"Data Insert",Toast.LENGTH_SHORT).show();
-
+                        dialog.dismiss();
                     }
                 } );
                 dialog.show();
@@ -95,10 +100,19 @@ private RecyclerView recyclerView;
         super.onStart();
         FirebaseRecyclerAdapter<Data,MyViewHolder>adapter=new FirebaseRecyclerAdapter<Data, MyViewHolder>(Data.class,R.layout.item_data,MyViewHolder.class,mDatabase) {
             @Override
-            protected void populateViewHolder(MyViewHolder viewholder,Data model,int position){
+            protected void populateViewHolder(MyViewHolder viewholder, final Data model, final int position){
     viewholder.setTitle( model.getTitle() );
     viewholder.setNote( model.getNote() );
     viewholder.setDate( model.getDate() );
+    viewholder.myview.setOnClickListener( new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            post_key=getRef( position ).getKey();
+            title=model.getTitle();
+            note=model.getNote();
+            updateData();
+        }
+    } );
         }
         };
         recyclerView.setAdapter(adapter);
@@ -123,7 +137,40 @@ public void setTitle(String title){
             mDate.setText( date );
         }
     }
-
+public void updateData(){
+        AlertDialog.Builder mydialog=new AlertDialog.Builder( HomeActivity.this );
+        LayoutInflater inflater=LayoutInflater.from( HomeActivity.this );
+        View myview=inflater.inflate( R.layout.updateinputfield,null );
+        mydialog.setView( myview );
+        final AlertDialog dialog=mydialog.create();
+uptitle=myview.findViewById( R.id.edt_titleupd);
+upnote=myview.findViewById( R.id.edt_noteupd );
+uptitle.setText( title );
+uptitle.setSelection( title.length() );
+upnote.setText( note );
+upnote.setSelection( note.length() );
+btnUpdate=myview.findViewById( R.id.btn_upd );
+btnDelete=myview.findViewById( R.id.btn_del );
+btnUpdate.setOnClickListener( new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        title=uptitle.getText().toString().trim();
+        note=upnote.getText().toString().trim();
+        String mDate=DateFormat.getDateInstance().format( new Date(  ));
+        Data data=new Data( title,note,mDate,post_key );
+        mDatabase.child( post_key ).setValue( data );
+        dialog.dismiss();
+    }
+} );
+btnDelete.setOnClickListener( new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        mDatabase.child( post_key ).removeValue();
+        dialog.dismiss();
+    }
+} );
+        dialog.show();
+}
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
        getMenuInflater().inflate( R.menu.mainmenu,menu );

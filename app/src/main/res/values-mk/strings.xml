@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="facebook_app_id">1288928381299719</string>
+    <string name="fb_login_protocol_scheme">fb1288928381299719</string>
+    <string name="app_name">Task Manager</string>
+    <string name="textview">Најави се</string>
+    <string name="textv">Регистрација</string>
+    <string name="hint">E-пошта:</string>
+    <string name="hint2">Лозинка:</string>
+    <string name="text">Најави се</string>
+    <string name="text4">Регистрирај се</string>
+    <string name="text1">Facebook Log in</string>
+    <string name="text2">Gmail Log in</string>
+    <string name="text3">Anonymous Log in</string>
+    <string name="singup">Немаш профил?Креирај сега</string>
+    <string name="singupf">Required field..</string>
+    <string name="succ">Successful</string>
+    <string name="suc">Problem</string>
+    <string name="me">Processing..</string>
+    <string name="singin">Имаш профил?Најави се</string>
+    <string name="title">Your Task App</string>
+    <string name="note">Опис:</string>
+    <string name="naslov">Наслов:</string>
+    <string name="save">Зачувај</string>
+    <string name="nasoka">Додади ја твојата задача</string>
+    <string name="datum">20 Мај</string>
+    <string name="log">Одјави се</string>
+    <string name="update">Измени</string>
+    <string name="delete">Бриши</string>
+</resources>

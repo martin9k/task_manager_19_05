@@ -24,4 +24,6 @@
     <string name="nasoka">Add your task</string>
     <string name="datum">20 May</string>
     <string name="log">log out</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
 </resources>

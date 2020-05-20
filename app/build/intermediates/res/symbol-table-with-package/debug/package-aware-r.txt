@@ -1591,7 +1591,9 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btn_del
 id btn_save
+id btn_upd
 id button
 id buttonPanel
 id cancel_action
@@ -1646,7 +1648,9 @@ id display_always
 id dropdown_menu
 id edit_query
 id edt_note
+id edt_noteupd
 id edt_title
+id edt_titleupd
 id email_login
 id email_register
 id end
@@ -2016,6 +2020,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout updateinputfield
 menu mainmenu
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -2098,6 +2103,7 @@ string common_signin_button_text
 string common_signin_button_text_long
 string datum
 string default_web_client_id
+string delete
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2176,6 +2182,7 @@ string text4
 string textv
 string textview
 string title
+string update
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
