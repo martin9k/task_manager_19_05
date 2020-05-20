@@ -841,30 +841,30 @@ public final class R {
         public static final int abc_search_dropdown_item_icons_2line = 0x7f0b0018;
         public static final int abc_search_view = 0x7f0b0019;
         public static final int abc_select_dialog_material = 0x7f0b001a;
-        public static final int com_facebook_activity_layout = 0x7f0b0021;
-        public static final int com_facebook_device_auth_dialog_fragment = 0x7f0b0022;
-        public static final int com_facebook_login_fragment = 0x7f0b0023;
-        public static final int com_facebook_smart_device_dialog_fragment = 0x7f0b0024;
-        public static final int com_facebook_tooltip_bubble = 0x7f0b0025;
-        public static final int notification_action = 0x7f0b005a;
-        public static final int notification_action_tombstone = 0x7f0b005b;
-        public static final int notification_media_action = 0x7f0b005c;
-        public static final int notification_media_cancel_action = 0x7f0b005d;
-        public static final int notification_template_big_media = 0x7f0b005e;
-        public static final int notification_template_big_media_custom = 0x7f0b005f;
-        public static final int notification_template_big_media_narrow = 0x7f0b0060;
-        public static final int notification_template_big_media_narrow_custom = 0x7f0b0061;
-        public static final int notification_template_custom_big = 0x7f0b0062;
-        public static final int notification_template_icon_group = 0x7f0b0063;
-        public static final int notification_template_lines_media = 0x7f0b0064;
-        public static final int notification_template_media = 0x7f0b0065;
-        public static final int notification_template_media_custom = 0x7f0b0066;
-        public static final int notification_template_part_chronometer = 0x7f0b0067;
-        public static final int notification_template_part_time = 0x7f0b0068;
-        public static final int select_dialog_item_material = 0x7f0b0069;
-        public static final int select_dialog_multichoice_material = 0x7f0b006a;
-        public static final int select_dialog_singlechoice_material = 0x7f0b006b;
-        public static final int support_simple_spinner_dropdown_item = 0x7f0b006c;
+        public static final int com_facebook_activity_layout = 0x7f0b0022;
+        public static final int com_facebook_device_auth_dialog_fragment = 0x7f0b0023;
+        public static final int com_facebook_login_fragment = 0x7f0b0024;
+        public static final int com_facebook_smart_device_dialog_fragment = 0x7f0b0025;
+        public static final int com_facebook_tooltip_bubble = 0x7f0b0026;
+        public static final int notification_action = 0x7f0b005b;
+        public static final int notification_action_tombstone = 0x7f0b005c;
+        public static final int notification_media_action = 0x7f0b005d;
+        public static final int notification_media_cancel_action = 0x7f0b005e;
+        public static final int notification_template_big_media = 0x7f0b005f;
+        public static final int notification_template_big_media_custom = 0x7f0b0060;
+        public static final int notification_template_big_media_narrow = 0x7f0b0061;
+        public static final int notification_template_big_media_narrow_custom = 0x7f0b0062;
+        public static final int notification_template_custom_big = 0x7f0b0063;
+        public static final int notification_template_icon_group = 0x7f0b0064;
+        public static final int notification_template_lines_media = 0x7f0b0065;
+        public static final int notification_template_media = 0x7f0b0066;
+        public static final int notification_template_media_custom = 0x7f0b0067;
+        public static final int notification_template_part_chronometer = 0x7f0b0068;
+        public static final int notification_template_part_time = 0x7f0b0069;
+        public static final int select_dialog_item_material = 0x7f0b006a;
+        public static final int select_dialog_multichoice_material = 0x7f0b006b;
+        public static final int select_dialog_singlechoice_material = 0x7f0b006c;
+        public static final int support_simple_spinner_dropdown_item = 0x7f0b006d;
     }
     public static final class string {
         private string() {}
@@ -909,8 +909,8 @@ public final class R {
         public static final int com_facebook_smart_login_confirmation_continue_as = 0x7f0f0037;
         public static final int com_facebook_smart_login_confirmation_title = 0x7f0f0038;
         public static final int com_facebook_tooltip_default = 0x7f0f0039;
-        public static final int search_menu_title = 0x7f0f008e;
-        public static final int status_bar_notification_info_overflow = 0x7f0f0092;
+        public static final int search_menu_title = 0x7f0f008f;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0093;
     }
     public static final class style {
         private style() {}

@@ -142,19 +142,19 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int browser_actions_context_menu_page = 0x7f0b001f;
-        public static final int browser_actions_context_menu_row = 0x7f0b0020;
-        public static final int notification_action = 0x7f0b005a;
-        public static final int notification_action_tombstone = 0x7f0b005b;
-        public static final int notification_template_custom_big = 0x7f0b0062;
-        public static final int notification_template_icon_group = 0x7f0b0063;
-        public static final int notification_template_part_chronometer = 0x7f0b0067;
-        public static final int notification_template_part_time = 0x7f0b0068;
+        public static final int browser_actions_context_menu_page = 0x7f0b0020;
+        public static final int browser_actions_context_menu_row = 0x7f0b0021;
+        public static final int notification_action = 0x7f0b005b;
+        public static final int notification_action_tombstone = 0x7f0b005c;
+        public static final int notification_template_custom_big = 0x7f0b0063;
+        public static final int notification_template_icon_group = 0x7f0b0064;
+        public static final int notification_template_part_chronometer = 0x7f0b0068;
+        public static final int notification_template_part_time = 0x7f0b0069;
     }
     public static final class string {
         private string() {}
 
-        public static final int status_bar_notification_info_overflow = 0x7f0f0092;
+        public static final int status_bar_notification_info_overflow = 0x7f0f0093;
     }
     public static final class style {
         private style() {}

@@ -45,11 +45,7 @@
         android:textColor="@android:color/white"
         android:background="@drawable/edtdesign"
         android:textAppearance="?android:textAppearanceMedium"/>
-    <com.google.android.gms.common.SignInButton
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:id="@+id/sign_in_button"/>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -73,6 +69,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/singup"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/singin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/google"
         android:gravity="center"
         android:padding="10dp"
         android:textColor="@android:color/white"

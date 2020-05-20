@@ -26,6 +26,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.task.Login_google" />
         <activity android:name="com.example.task.HomeActivity" />
         <activity android:name="com.example.task.RegistrationActivity" />
         <activity android:name="com.example.task.MainActivity" >
@@ -166,17 +167,16 @@
             </intent-filter>
         </receiver>
 
-        <provider
-            android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.task.firebaseinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
-
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.task.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="com.example.task.lifecycle-process"

@@ -50,6 +50,7 @@
     <string name="delete">Бриши</string>
     <string name="facebook_app_id">1288928381299719</string>
     <string name="fb_login_protocol_scheme">fb1288928381299719</string>
+    <string name="google">Најави се со Google </string>
     <string name="hint">E-пошта:</string>
     <string name="hint2">Лозинка:</string>
     <string name="log">Одјави се</string>
@@ -68,10 +69,10 @@
     <string name="text">Најави се</string>
     <string name="text1">Facebook Log in</string>
     <string name="text2">Gmail Log in</string>
-    <string name="text3">Anonymous Log in</string>
+    <string name="text3">Најави се анонимно </string>
     <string name="text4">Регистрирај се</string>
     <string name="textv">Регистрација</string>
-    <string name="textview">Најави се</string>
+    <string name="textview">Најава</string>
     <string name="title">Your Task App</string>
     <string name="update">Измени</string>
 </resources>

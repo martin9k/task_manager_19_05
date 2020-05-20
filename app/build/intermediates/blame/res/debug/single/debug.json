@@ -1049,7 +1049,7 @@
     },
     {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\59706fb0cd949f5b3e2f42e1e02500e1\\play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
+        "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\7c5a62abed9ef7c708a12102a058f7fc\\play-services-auth-18.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -2340,6 +2340,10 @@
         "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\6d206c10dfcd7e4d261b33c292c090cb\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
     },
     {
+        "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_google.xml.flat",
+        "source": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\src\\main\\res\\layout\\activity_login_google.xml"
+    },
+    {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\88b8882e6a15c728169a63194a12dedc\\material-1.1.0\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
@@ -2853,7 +2857,7 @@
     },
     {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\59706fb0cd949f5b3e2f42e1e02500e1\\play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
+        "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\7c5a62abed9ef7c708a12102a058f7fc\\play-services-auth-18.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -2901,7 +2905,7 @@
     },
     {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
-        "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\59706fb0cd949f5b3e2f42e1e02500e1\\play-services-auth-17.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+        "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\7c5a62abed9ef7c708a12102a058f7fc\\play-services-auth-18.0.0\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
     },
     {
         "merged": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_messenger_bubble_large_white.png.flat",

@@ -1928,6 +1928,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_home
+layout activity_login_google
 layout activity_main
 layout activity_registration
 layout browser_actions_context_menu_page
@@ -2112,6 +2113,7 @@ string facebook_app_id
 string fb_login_protocol_scheme
 string firebase_database_url
 string gcm_defaultSenderId
+string google
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key

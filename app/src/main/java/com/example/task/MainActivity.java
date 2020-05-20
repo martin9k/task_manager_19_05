@@ -38,6 +38,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.Task;
+import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthCredential;
@@ -45,16 +46,21 @@ import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.android.gms.common.api.GoogleApiClient;
-public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
-    SignInButton signInButton;
+import com.google.firebase.auth.GoogleAuthProvider;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+
+public class MainActivity extends AppCompatActivity {
+
+
     private GoogleApiClient googleApiClient;
     TextView textView;
-    private static final int RC_SIGN_IN = 1;
+    private static final int RC_SIGN_IN = 101;
     private TextView singup;
+    private TextView singin;
     private EditText log;
     private EditText pass;
     private Button btnLog;
-    private Button btnGmail;
+    private Button btnGoogle;
 
     private LoginButton loginButton;
     private CallbackManager mCallbackManager;
@@ -64,36 +70,22 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private FirebaseAuth mAuth;
     private ProgressDialog mDialog;
     private static final String TAG = "FacebookAuthentication";
+    private GoogleApiClient mGoogleApiClient;
     private Button loginAnonymousbutton;
     private FirebaseUser currentUser;
-
+    GoogleSignInClient mGoogleSignInClient;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder( GoogleSignInOptions.DEFAULT_SIGN_IN )
-                .requestEmail()
-                .build();
-        googleApiClient = new GoogleApiClient.Builder( this )
-                .enableAutoManage( this, this )
-                .addApi( Auth.GOOGLE_SIGN_IN_API, gso )
-                .build();
 
-        signInButton = (SignInButton) findViewById( R.id.sign_in_button );
-        signInButton.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = Auth.GoogleSignInApi.getSignInIntent( googleApiClient );
-                startActivityForResult( intent, RC_SIGN_IN );
-            }
-        } );
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
         mFirebaseAuth = FirebaseAuth.getInstance();
         FacebookSdk.sdkInitialize( getApplicationContext() );
         loginButton = findViewById( R.id.login_button );
         loginButton.setReadPermissions( "email", "public_profile" );
-        signInButton = findViewById( R.id.sign_in_button );
+
         loginAnonymousbutton = findViewById( R.id.loginAnonymousbutton );
         loginAnonymousbutton.setOnClickListener( new View.OnClickListener() {        //insert a listener on button that checks whether the button is clicked
             @Override
@@ -165,6 +157,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         }
         mDialog = new ProgressDialog( this );
         singup = findViewById( R.id.singup );
+        singin=findViewById( R.id.singin );
         log = findViewById( R.id.email_login );
         pass = findViewById( R.id.password );
         btnLog = findViewById( R.id.login_btn );
@@ -200,6 +193,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             }
         } );
 
+        singin.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity( new Intent( getApplicationContext(), Login_google.class ) );
+            }
+        } );
+
         singup.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -210,23 +210,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
 
-    private void handleSignInResult(GoogleSignInResult result){
-        if(result.isSuccess()){
-            gotoProfile();
-        }else{
-            Toast.makeText(getApplicationContext(),"Sign in cancel",Toast.LENGTH_LONG).show();
-        }
-    }
-
     private void gotoProfile(){
         Intent intent=new Intent(MainActivity.this,HomeActivity.class);
         startActivity(intent);
     }
 
-    @Override
-    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-
-    }
 
     public void handlerFacebookToken(AccessToken token) {
         Log.d( TAG, "handleFacebookToken" );
@@ -251,7 +239,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
 
         mCallbackManager.onActivityResult( requestCode, resultCode, data );
-        super.onActivityResult( requestCode, resultCode, data );}
+        super.onActivityResult( requestCode, resultCode, data );
+
+    }
 
 
 
