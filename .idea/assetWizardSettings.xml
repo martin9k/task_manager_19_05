@@ -35,7 +35,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/C:/Users/vrootok/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/191.6010548/plugins/android/lib/android.jar!/images/material_design_icons/content/ic_create_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/C:/Users/vrootok/AppData/Local/JetBrains/Toolbox/apps/AndroidStudio/ch-0/191.6010548/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_power_settings_new_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -45,7 +45,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="fab" />
+                                      <entry key="outputName" value="logout" />
                                       <entry key="themeColor" value="ffffff" />
                                     </map>
                                   </option>

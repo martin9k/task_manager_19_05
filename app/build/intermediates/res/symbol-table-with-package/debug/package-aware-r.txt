@@ -1473,6 +1473,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable logout
 drawable messenger_bubble_large_blue
 drawable messenger_bubble_large_white
 drawable messenger_bubble_small_blue
@@ -1628,6 +1629,7 @@ id custom
 id customPanel
 id cut
 id dark
+id date
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
@@ -1694,6 +1696,7 @@ id list_item
 id loginAnonymousbutton
 id login_btn
 id login_button
+id logout
 id masked
 id media_actions
 id message
@@ -1733,6 +1736,7 @@ id never_display
 id noScroll
 id none
 id normal
+id note
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1756,6 +1760,7 @@ id progress_bar
 id progress_circular
 id progress_horizontal
 id radio
+id recycler
 id register_btn
 id right
 id right_icon
@@ -1945,6 +1950,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout item_data
 layout messenger_button_send_blue_large
 layout messenger_button_send_blue_round
 layout messenger_button_send_blue_small
@@ -2010,6 +2016,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu mainmenu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -2089,6 +2096,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string datum
 string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -2106,6 +2114,7 @@ string hide_bottom_view_on_scroll_behavior
 string hint
 string hint2
 string icon_content_description
+string log
 string me
 string messenger_send_button_text
 string mtrl_badge_numberless_content_description

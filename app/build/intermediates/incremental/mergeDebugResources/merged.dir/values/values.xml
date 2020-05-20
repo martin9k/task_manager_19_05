@@ -879,6 +879,7 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="datum">20 May</string>
     <string name="default_web_client_id" translatable="false">896608813435-59qaikob86it6o0k0i14s3kfofhcklht.apps.googleusercontent.com</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
@@ -896,6 +897,7 @@
     <string name="hint">Email:</string>
     <string name="hint2">Password:</string>
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
+    <string name="log">log out</string>
     <string name="me">Processing..</string>
     <string name="messenger_send_button_text">Send</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>

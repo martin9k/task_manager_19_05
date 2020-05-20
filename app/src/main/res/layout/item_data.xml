@@ -4,7 +4,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     app:cardElevation="10dp"
     android:layout_height="wrap_content"
-    android:layout_margin="7dp"
+    android:layout_margin="10dp"
     android:elevation="10dp">
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             >
         <TextView
             android:layout_width="match_parent"
@@ -28,7 +28,7 @@
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_weight="2"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -44,8 +44,8 @@
                 android:id="@+id/note"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="22dp"
                 android:maxLines="2"
+                android:padding="22dp"
                 android:text="@string/note"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/black"></TextView>

@@ -7,10 +7,14 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -22,7 +26,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
+import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import java.text.DateFormat;
 import java.util.Date;
 
@@ -89,6 +93,15 @@ private RecyclerView recyclerView;
     @Override
     protected void onStart() {
         super.onStart();
+        FirebaseRecyclerAdapter<Data,MyViewHolder>adapter=new FirebaseRecyclerAdapter<Data, MyViewHolder>(Data.class,R.layout.item_data,MyViewHolder.class,mDatabase) {
+            @Override
+            protected void populateViewHolder(MyViewHolder viewholder,Data model,int position){
+    viewholder.setTitle( model.getTitle() );
+    viewholder.setNote( model.getNote() );
+    viewholder.setDate( model.getDate() );
+        }
+        };
+        recyclerView.setAdapter(adapter);
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
@@ -109,5 +122,22 @@ public void setTitle(String title){
             TextView mDate=myview.findViewById( R.id.date);
             mDate.setText( date );
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+       getMenuInflater().inflate( R.menu.mainmenu,menu );
+        return super.onCreateOptionsMenu( menu );
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.logout:
+            mAuth.signOut();
+            startActivity( new Intent( getApplicationContext(),MainActivity.class ) );
+            break;
+        }
+        return super.onOptionsItemSelected( item );
     }
 }

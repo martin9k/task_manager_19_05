@@ -152,173 +152,185 @@
 82-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
 83            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 83-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\59706fb0cd949f5b3e2f42e1e02500e1\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
-84        <service
-84-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
-85            android:name="com.google.firebase.components.ComponentDiscoveryService"
-85-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:30:13-84
-86            android:directBootAware="true"
-86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-87            android:exported="false" >
-87-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:31:13-37
-88            <meta-data
-88-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
-89                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-89-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:33:17-109
-90                android:value="com.google.firebase.components.ComponentRegistrar" />
-90-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:34:17-82
-91            <meta-data
-91-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
-92                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-92-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
-93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
-94            <meta-data
-94-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
-95                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-95-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
-96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
-97            <meta-data
-97-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
-98                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-98-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
-99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
-100        </service>
-101
-102        <activity
-102-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
-103            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-103-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
-104            android:excludeFromRecents="true"
-104-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
-105            android:exported="true"
-105-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
-106            android:launchMode="singleTask"
-106-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
-107            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-107-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
-108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-108-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
-109
-110        <receiver
-110-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
-111            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-111-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
-112            android:enabled="true"
-112-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
-113            android:exported="false" >
-113-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
-114        </receiver>
+84
+85        <meta-data
+85-->[com.firebaseui:firebase-ui-database:2.4.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d321ddaaa479352c4f7f333b76e2cf8f\jetified-firebase-ui-database-2.4.0\AndroidManifest.xml:14:9-16:69
+86            android:name="com.google.android.gms.version"
+86-->[com.firebaseui:firebase-ui-database:2.4.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d321ddaaa479352c4f7f333b76e2cf8f\jetified-firebase-ui-database-2.4.0\AndroidManifest.xml:15:13-58
+87            android:value="@integer/google_play_services_version" />
+87-->[com.firebaseui:firebase-ui-database:2.4.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\d321ddaaa479352c4f7f333b76e2cf8f\jetified-firebase-ui-database-2.4.0\AndroidManifest.xml:16:13-66
+88
+89        <service
+89-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:29:9-35:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:30:13-84
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:31:13-37
+93            <meta-data
+93-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+94                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+94-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-database:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\9c9721656f8474e8f45bcfb58968a1b2\firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+97                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+97-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+99            <meta-data
+99-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:30:13-32:85
+100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+100-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:31:17-139
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\3d8bed9a53529358f2c71b6407804b7b\play-services-measurement-api-17.2.2\AndroidManifest.xml:32:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+103-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+105        </service>
+106
+107        <activity
+107-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+108            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+108-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+109            android:excludeFromRecents="true"
+109-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+110            android:exported="true"
+110-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+111            android:launchMode="singleTask"
+111-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+112            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+112-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\78d91d19ec99169cfbce50523831f1f9\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+114
 115        <receiver
-115-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
-116            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-116-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+115-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:29:9-33:20
+116            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+116-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:30:13-85
 117            android:enabled="true"
-117-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
-118            android:exported="true"
-118-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
-119            android:permission="android.permission.INSTALL_PACKAGES" >
-119-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
-120            <intent-filter>
-120-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
-121                <action android:name="com.android.vending.INSTALL_REFERRER" />
-121-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
-121-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
-122            </intent-filter>
-123        </receiver>
-124
-125        <service
-125-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
-126            android:name="com.google.android.gms.measurement.AppMeasurementService"
-126-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
-127            android:enabled="true"
-127-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
-128            android:exported="false" />
-128-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
-129        <service
-129-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
-130            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-130-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
-131            android:enabled="true"
-131-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
-132            android:exported="false"
-132-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
-133            android:permission="android.permission.BIND_JOB_SERVICE" />
-133-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
-134        <!--
-135         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
-136         with the application context. This config is merged in with the host app's manifest,
-137         but there can only be one provider with the same authority activated at any given
-138         point; so if the end user has two or more different apps that use Facebook SDK, only the
-139         first one will be able to use the provider. To work around this problem, we use the
-140         following placeholder in the authority to identify each host application as if it was
-141         a completely different provider.
-142        -->
-143        <provider
-143-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
-144            android:name="com.facebook.internal.FacebookInitProvider"
-144-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
-145            android:authorities="com.example.task.FacebookInitProvider"
-145-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
-146            android:exported="false" />
-146-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
-147
-148        <receiver
-148-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
-149            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
-149-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
-150            android:exported="false" >
-150-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
-151            <intent-filter>
-151-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
-152                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
-152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
-152-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
-153            </intent-filter>
-154        </receiver>
-155        <receiver
-155-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
-156            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-156-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
-157            android:exported="true"
-157-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
-158            android:permission="com.google.android.c2dm.permission.SEND" >
-158-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
-159            <intent-filter>
-159-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
-160                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-160-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
-160-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
-161            </intent-filter>
-162        </receiver>
-163
-164        <provider
-164-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-165            android:name="com.google.firebase.provider.FirebaseInitProvider"
-165-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-166            android:authorities="com.example.task.firebaseinitprovider"
-166-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-167            android:exported="false"
-167-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-168            android:initOrder="100" />
-168-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-169
-170        <activity
-170-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-171            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-171-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+117-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:31:13-35
+118            android:exported="false" >
+118-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:32:13-37
+119        </receiver>
+120        <receiver
+120-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:34:9-42:20
+121            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+121-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:35:13-100
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:36:13-35
+123            android:exported="true"
+123-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:37:13-36
+124            android:permission="android.permission.INSTALL_PACKAGES" >
+124-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:38:13-69
+125            <intent-filter>
+125-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:39:13-41:29
+126                <action android:name="com.android.vending.INSTALL_REFERRER" />
+126-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:17-79
+126-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:40:25-76
+127            </intent-filter>
+128        </receiver>
+129
+130        <service
+130-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:44:9-47:40
+131            android:name="com.google.android.gms.measurement.AppMeasurementService"
+131-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:45:13-84
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:46:13-35
+133            android:exported="false" />
+133-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:47:13-37
+134        <service
+134-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:48:9-52:72
+135            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+135-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:49:13-87
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:50:13-35
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:51:13-37
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.google.android.gms:play-services-measurement:17.2.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\ac2605da77983b497481f9e2091aefdd\play-services-measurement-17.2.2\AndroidManifest.xml:52:13-69
+139        <!--
+140         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+141         with the application context. This config is merged in with the host app's manifest,
+142         but there can only be one provider with the same authority activated at any given
+143         point; so if the end user has two or more different apps that use Facebook SDK, only the
+144         first one will be able to use the provider. To work around this problem, we use the
+145         following placeholder in the authority to identify each host application as if it was
+146         a completely different provider.
+147        -->
+148        <provider
+148-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+149            android:name="com.facebook.internal.FacebookInitProvider"
+149-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+150            android:authorities="com.example.task.FacebookInitProvider"
+150-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+151            android:exported="false" />
+151-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+152
+153        <receiver
+153-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+154            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+154-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+155            android:exported="false" >
+155-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+156            <intent-filter>
+156-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+157                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+157-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+157-->[com.facebook.android:facebook-core:5.15.3] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\83ae736e83d5cd65d4d4714164384c58\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+158            </intent-filter>
+159        </receiver>
+160        <receiver
+160-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+161            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+161-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+162            android:exported="true"
+162-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+163            android:permission="com.google.android.c2dm.permission.SEND" >
+163-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+164            <intent-filter>
+164-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+165-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+165-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+166            </intent-filter>
+167        </receiver>
+168
+169        <provider
+169-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+170            android:name="com.google.firebase.provider.FirebaseInitProvider"
+170-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+171            android:authorities="com.example.task.firebaseinitprovider"
+171-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
 172            android:exported="false"
-172-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-173            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-173-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+172-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:19.3.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\381962fe4e16dc7240c63488d17d73d4\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 174
-175        <meta-data
-175-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\df456de5bb4354bc11929227318d1a25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-176            android:name="com.google.android.gms.version"
-176-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\df456de5bb4354bc11929227318d1a25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-177            android:value="@integer/google_play_services_version" />
-177-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\df456de5bb4354bc11929227318d1a25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-178    </application>
+175        <activity
+175-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+176            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+176-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+177            android:exported="false"
+177-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+178            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+178-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 179
-180</manifest>
+180        <provider
+180-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+181            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+181-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+182            android:authorities="com.example.task.lifecycle-process"
+182-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+183            android:exported="false"
+183-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+184            android:multiprocess="true" />
+184-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vrootok\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+185    </application>
+186
+187</manifest>
