@@ -50,6 +50,7 @@
     <string name="delete">Бриши</string>
     <string name="facebook_app_id">1288928381299719</string>
     <string name="fb_login_protocol_scheme">fb1288928381299719</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"Разно"</string>
     <string name="google">Најави се со Google </string>
     <string name="hint">E-пошта:</string>
     <string name="hint2">Лозинка:</string>

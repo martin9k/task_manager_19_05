@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\vrootok\\AndroidStudioProjects\\task\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\7c5a62abed9ef7c708a12102a058f7fc\\play-services-auth-18.0.0\\res\\values-watch-v20\\values.xml",
+                    "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\a48424f01bc68b7f9e12017a4700640f\\play-services-auth-18.0.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "source": "C:\\Users\\vrootok\\.gradle\\caches\\transforms-2\\files-2.1\\9427e7becd1ca9d1ab1683725ad7174d\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

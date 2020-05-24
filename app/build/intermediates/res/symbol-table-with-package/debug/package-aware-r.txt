@@ -1509,6 +1509,7 @@ drawable test_custom_background
 drawable toolbar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable web_hi_res_512
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -1836,6 +1837,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1990,6 +1992,7 @@ layout mtrl_picker_header_title_text
 layout mtrl_picker_header_toggle
 layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
+layout notification
 layout notification_action
 layout notification_action_tombstone
 layout notification_media_action
@@ -2111,6 +2114,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string facebook_app_id
 string fb_login_protocol_scheme
+string fcm_fallback_notification_channel_label
 string firebase_database_url
 string gcm_defaultSenderId
 string google

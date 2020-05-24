@@ -44,6 +44,7 @@ public class RegistrationActivity extends AppCompatActivity {
         btnReg.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 String mEmail=reg.getText().toString().trim();
                 String mPassword=pass.getText().toString().trim();
                 if(TextUtils.isEmpty(mEmail)){

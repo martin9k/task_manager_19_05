@@ -10,8 +10,12 @@ import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
+
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
@@ -39,6 +43,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthCredential;
@@ -48,6 +53,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -73,24 +79,23 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient mGoogleApiClient;
     private Button loginAnonymousbutton;
     private FirebaseUser currentUser;
+    private FirebaseAnalytics mFirebaseAnalytics;
     GoogleSignInClient mGoogleSignInClient;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_main );
-
+        mFirebaseAnalytics=FirebaseAnalytics.getInstance( this );
         mAuth = FirebaseAuth.getInstance();
         currentUser = mAuth.getCurrentUser();
         mFirebaseAuth = FirebaseAuth.getInstance();
         FacebookSdk.sdkInitialize( getApplicationContext() );
         loginButton = findViewById( R.id.login_button );
         loginButton.setReadPermissions( "email", "public_profile" );
-
         loginAnonymousbutton = findViewById( R.id.loginAnonymousbutton );
         loginAnonymousbutton.setOnClickListener( new View.OnClickListener() {        //insert a listener on button that checks whether the button is clicked
             @Override
             public void onClick(View v) {
-
                 if (currentUser == null) {
                     mAuth.signInAnonymously().
                             addOnCompleteListener( new OnCompleteListener<AuthResult>() {

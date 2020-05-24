@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"  >
+        android:orientation="horizontal"
+        android:baselineAligned="false">
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -29,23 +30,25 @@
             android:layout_width="0dp"
             android:layout_weight="2"
             android:layout_height="match_parent">
+
             <TextView
+                android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="5dp"
-                android:text="@string/naslov"
                 android:maxLines="1"
+                android:padding="7dp"
+                android:text="@string/naslov"
                 android:textAppearance="?android:textAppearanceMedium"
-                android:textColor="@android:color/black"
-                android:id="@+id/title"
-                ></TextView>
+                android:textColor="@android:color/black"></TextView>
 
             <TextView
                 android:id="@+id/note"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginTop="0dp"
                 android:maxLines="2"
-                android:padding="22dp"
+                android:padding="7dp"
                 android:text="@string/note"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/black"></TextView>
